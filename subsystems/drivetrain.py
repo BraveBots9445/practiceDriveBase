@@ -734,7 +734,7 @@ class Drivetrain(Subsystem):
                 SwerveModuleState(0, Rotation2d.fromDegrees(45)),
             ]
         elif isinstance(request, swerve.requests.FieldCentric):
-            alliance_mult = (
+            alliance_mult = 1 + 0 * (
                 -1
                 if RobotBase.isSimulation()
                 and self._curr_alliance == DriverStation.Alliance.kRed
