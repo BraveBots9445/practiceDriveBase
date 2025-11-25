@@ -1,3 +1,6 @@
+### Simulation ### 
+simgui-ds.json
+
 # Log file
 *.log
 
@@ -22,7 +25,8 @@
 .AppleDouble
 .LSOverride
 
-# Icon must end with two 
+# Icon must end with two 
+
 Icon
 
 # Thumbnails
